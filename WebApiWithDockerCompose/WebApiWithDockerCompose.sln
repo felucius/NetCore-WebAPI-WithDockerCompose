@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWithDockerCompose", "
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9C699028-282F-4326-8CC0-63E737F22DFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTests", "..\XUnitTests\XUnitTests.csproj", "{1DB5EFA0-BA55-40EE-AA9A-154417A61B38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9C699028-282F-4326-8CC0-63E737F22DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C699028-282F-4326-8CC0-63E737F22DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C699028-282F-4326-8CC0-63E737F22DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB5EFA0-BA55-40EE-AA9A-154417A61B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB5EFA0-BA55-40EE-AA9A-154417A61B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB5EFA0-BA55-40EE-AA9A-154417A61B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB5EFA0-BA55-40EE-AA9A-154417A61B38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

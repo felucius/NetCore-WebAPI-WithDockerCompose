@@ -1,8 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using WebApiWithDockerCompose.Model;
 
 namespace WebApiWithDockerCompose.Data
@@ -14,6 +10,8 @@ namespace WebApiWithDockerCompose.Data
 
 		}
 
+
+		// Database set Users
 		public DbSet<User> Users { get; set; }
 	}
 }

@@ -1,10 +1,12 @@
 ﻿
+using WebApiWithDockerCompose.Data;
+
 namespace WebApiWithDockerCompose.Model
 {
 	/// <summary>
 	/// The User class that contains information regarding a user.
 	/// </summary>
-	public class User
+	public class User : IUser
 	{
 		/// <summary>
 		/// ID
@@ -20,5 +22,32 @@ namespace WebApiWithDockerCompose.Model
 		/// Email
 		/// </summary>
 		public string Email { get; set; }
+
+		/// <summary>
+		/// Get the email of a user.
+		/// </summary>
+		/// <returns></returns>
+		public string GetEmail()
+		{
+			return this.Email;
+		}
+
+		/// <summary>
+		/// Get the ID of a user
+		/// </summary>
+		/// <returns></returns>
+		public int GetID()
+		{
+			return this.ID;
+		}
+
+		/// <summary>
+		///  Get the name of a user.
+		/// </summary>
+		/// <returns></returns>
+		public string GetName()
+		{
+			return this.Name;
+		}
 	}
 }
